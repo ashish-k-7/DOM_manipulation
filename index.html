@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js Assignment</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+   <link rel="stylesheet" href="style.css">
+ 
+  </head>
+  <body>
+    <h1>Dynamically Add & Remove Table Rows</h1>
+    <div class="Container">
+    <form>
+      <div class="input-row">
+        <label for="Name">Name</label>
+        <input type="text" name="Name" id="Name" />
+      </div>
+      <div class="input-row">
+        <label for="Email">Email</label>
+        <input type="text" name="Email" id="Email" />
+      </div>
+      <div class="input-row">
+        <label for="Contact">Contact No:</label>
+         <input type="text" name="contact" id="contact" />
+      </div>
+      <button>Submit</button>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Contact No:</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    </div>
+    <div class="button-container">
+    <button class="btn-background" onclick="changeColor()">Change Background</button>
+    <button class="btn-background" onclick="addElement()">Add ELEMENT</button>
+  
+    </div>
+    <div id="new-element"></div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+  <script> 
+</script>
+</html>

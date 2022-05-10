@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  h1 {
+    text-align: center;
+  }
+  table,
+  form {
+    width: 500px;
+    margin: 20px auto;
+  }
+  table {
+    border-collapse: collapse;
+    text-align: center;
+  }
+  table td,
+  table th {
+    border: solid 1px black;
+  }
+  label,
+  input {
+    display: block;
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  button {
+    display: block;
+  }
+  
+  .background-change{
+    background-color:rgb(180, 232, 189);
+  }
+  
+  .button-container{
+    display: flex;
+    justify-content:center;
+  }
+  
+  .btn-background{
+    margin: 10px;
+  }
+  
+  .para-btn{
+    display:block;
+    text-align:center;
+    position: relative;
+    margin:10px auto;
+  }
